@@ -1,8 +1,6 @@
 package com.assignment.animal;
 
-import com.assignment.functions.OtherFunction;
-
-public class ParrotWithDogs extends Animal implements OtherFunction {
+public class ParrotWithDogs extends Dog {
 
 	public ParrotWithDogs() {
 		System.out.println("This is Parrot; living with dogs");
@@ -11,7 +9,7 @@ public class ParrotWithDogs extends Animal implements OtherFunction {
 	
 	@Override
 	public void sing() {
-		System.out.println("Woof, woof");
+		super.sing();
 	}
 	
 	

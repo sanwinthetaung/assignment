@@ -61,6 +61,13 @@ public class Solution {
 		Animal dolphin = new Dolphin();
 		dolphin.walk();
 		System.out.println("________________");
+		
+		Butterfly butterfly = new Butterfly();
+		butterfly.sing();
+		butterfly.walk();
+		System.out.println("________________");
+		
+		
 	}
 
 }
