@@ -8,6 +8,6 @@ public class Bird extends Animal implements OtherFunction {
 
 	@Override
 	public void sing() {
-		System.out.println("Tweet Tweet Tweet .. ");
+		System.out.println("I am Singing ");
 	}
 }
