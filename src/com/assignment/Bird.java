@@ -1,8 +1,13 @@
 package com.assignment;
 
-public class Bird extends Animal {
+public class Bird extends Animal implements OtherFunction {
 
 	void fly() {
 		System.out.println("I am flying");
+	}
+
+	@Override
+	public void sing() {
+		System.out.println("Tweet Tweet Tweet .. ");
 	}
 }
