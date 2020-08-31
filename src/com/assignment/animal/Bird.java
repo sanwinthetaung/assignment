@@ -1,6 +1,13 @@
-package com.assignment;
+package com.assignment.animal;
+
+import com.assignment.functions.OtherFunction;
 
 public class Bird extends Animal implements OtherFunction {
+	
+	public Bird() {
+		System.out.println("This is Bird");
+		System.out.println("-------------");
+	}
 
 	void fly() {
 		System.out.println("I am flying");

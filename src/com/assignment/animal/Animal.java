@@ -1,4 +1,4 @@
-package com.assignment;
+package com.assignment.animal;
 
 public class Animal {
 	void walk() {
