@@ -6,4 +6,10 @@ public class ClownFish extends Fish {
 		System.out.println("Clownfish are small and colourfull");
 		System.out.println("Clownfish make jokes");
 	}
+	
+	@Override
+	public void swim() {
+		super.swim();
+		Solution.swimCount ++ ;
+	}
 }

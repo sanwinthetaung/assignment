@@ -6,4 +6,10 @@ public class Shark extends Fish {
 		System.out.println("Shark are large and gray");
 		System.out.println("Shark eat other fish");
 	}
+	
+	@Override
+	public void swim() {
+		super.swim();
+		Solution.swimCount ++ ;
+	}
 }

@@ -3,6 +3,11 @@ package com.assignment.animal;
 import com.assignment.functions.OtherFunction;
 
 public class Solution {
+	
+	public static int flyCount  = 0;
+	public static int swimCount = 0;
+	public static int walkCount = 0;
+	public static int singCount = 0;
 
 	public static void main(String[] args) {
 		Bird bird = new Bird();
@@ -53,13 +58,15 @@ public class Solution {
 		System.out.println("________________");
 		
 		Fish shark = new Shark();
+		shark.swim();
 		System.out.println("________________");
 		
 		Fish clownFish = new ClownFish();
+		clownFish.swim();
 		System.out.println("________________");
 		
-		Animal dolphin = new Dolphin();
-		dolphin.walk();
+		Dolphin dolphin = new Dolphin();
+		dolphin.swim();
 		System.out.println("________________");
 		
 		Butterfly butterfly = new Butterfly();
@@ -68,6 +75,15 @@ public class Solution {
 		System.out.println("________________");
 		
 		
+		
+		Solution.showCount();
+	}
+	
+	static void showCount() {
+		System.out.println("swim count " + swimCount);
+		System.out.println("fly count " + flyCount);
+		System.out.println("walk count " + walkCount);
+		System.out.println("sing count " + singCount);
 	}
 
 }

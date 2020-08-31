@@ -9,6 +9,7 @@ public class ParrotWithCats extends Cat {
 	
 	@Override
 	public void sing() {
+		Solution.singCount ++ ;
 		super.sing();
 	}
 	

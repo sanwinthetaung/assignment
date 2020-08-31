@@ -11,6 +11,7 @@ public class Rooster implements OtherFunction {
 	
 	@Override
 	public void sing() {
+		Solution.singCount ++ ;
 		System.out.println("Cock-a-doodle-doo");
 	}
 }

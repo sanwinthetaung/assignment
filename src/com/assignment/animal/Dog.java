@@ -6,6 +6,7 @@ public class Dog implements OtherFunction {
 
 	@Override
 	public void sing() {
+		Solution.singCount ++ ;
 		System.out.println("Woof, woof");
 	}
 }
