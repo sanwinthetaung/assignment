@@ -51,6 +51,16 @@ public class Solution {
 		fish.sing();
 		
 		System.out.println("________________");
+		
+		Fish shark = new Shark();
+		System.out.println("________________");
+		
+		Fish clownFish = new ClownFish();
+		System.out.println("________________");
+		
+		Animal dolphin = new Dolphin();
+		dolphin.walk();
+		System.out.println("________________");
 	}
 
 }
