@@ -1,5 +1,7 @@
 package com.assignment.animal;
 
+import com.assignment.functions.OtherFunction;
+
 public class Solution {
 
 	public static void main(String[] args) {
@@ -22,7 +24,24 @@ public class Solution {
 		
 		System.out.println("________________");
 		
+		// Rooster related with chicken by interface
+		OtherFunction rooster = new Rooster();
+		rooster.sing();
 		
+		System.out.println("________________");
+		
+		ParrotWithDogs parrotWithDogs = new ParrotWithDogs();
+		parrotWithDogs.sing();
+		
+		System.out.println("________________");
+		
+		ParrotWithCats parrotWithCats = new ParrotWithCats();
+		parrotWithCats.sing();
+		
+		System.out.println("________________");
+		
+		ParrotWithRooster parrotWithRooster = new ParrotWithRooster();
+		parrotWithRooster.sing();
 	}
 
 }
